@@ -12,7 +12,7 @@ This is a collection of drivers and utilities designed for the STM32 microcontro
 - [MPU9250](https://github.com/MarkSherstan/STM32-MPU6050-MPU9250-I2C-SPI) / [ICM-20948](https://github.com/therealwokewok/ICM20948) : gyroscope, accelerometer, and magnetometer sensor with a total of 9 axes
 - [MLX90614](https://github.com/dinamitemic/mlx90614) :non-contact infrared temperature sensor. Another implementation is also available [here](https://github.com/nimaltd/MLX90614)
 - [SHT2X](https://github.com/eepj/SHT2x_for_STM32_HAL) / [SHT3X](https://github.com/henriheimann/stm32-hal-sht3x) : digital temperature and humidity sensors
-- SHT4X : Dhe newest digital temperature and humidity sensor. There is no exact implementation for STM32 HAL, but [this implementation](https://github.com/Sensirion/embedded-i2c-sht4x/blob/master/sensirion_i2c_hal.c) can be used as a backbone for implementation.
+- SHT4X : The newest digital temperature and humidity sensor. There is no exact implementation for STM32 HAL, but [this implementation](https://github.com/Sensirion/embedded-i2c-sht4x/blob/master/sensirion_i2c_hal.c) can be used as a backbone for implementation.
 - [LIS2MDL](https://github.com/STMicroelectronics/lis2mdl-pid) : 3-Axis magnetic field sensor. Platform independent driver is bundled.
 - [INA226](https://github.com/Autofoxsys/AutoFox_INA226) : Voltage, current and power measurement IC
 - [TMP75](https://github.com/ignacioinda/TMP75_STM32_HAL) : Board mount temperature sensor 
@@ -22,6 +22,7 @@ This is a collection of drivers and utilities designed for the STM32 microcontro
 
 ## Analog
 - [ADS1115](https://github.com/MrHause/ADS1115_Library) : 16-bit 4 channel i2c analog-to-digital converter ic
+- [ADS7828](https://github.com/vtx22/STM32-ADS7828) : 12-bit, 8 channel SAR i2c analog-to-digital converter ic
 - [MCP4725](https://github.com/SMotlaq/mcp4725) : 12bit i2c digital-to-analog converter ic
 
 
@@ -36,7 +37,7 @@ This is a collection of drivers and utilities designed for the STM32 microcontro
 - [ST7735](https://github.com/afiskon/stm32-st7735) : A TFT LCD display driver
 - [SSD1351](https://github.com/afiskon/stm32-ssd1351) : A Color OLED display
 - [ili9341](https://github.com/afiskon/stm32-ili9341) : A TFT LCD display with touchscreen feature
-- [I2CLCD](https://github.com/meteowrite/stm32_i2cLcd) : 16x2 character lcd display which is driven with PCF8574 IO module
+- [I2CLCD](https://github.com/meteowrite/stm32_i2cLcd) : 16x2 character lcd display sample project which is driven with PCF8574 IO module
 
 ## Communication protocol 
 - EtherCAT slave : There is an [example](https://github.com/kubabuda/ecat_servo/tree/main/examples/SOES_LAN9252) using LAN9252 hardware
