@@ -43,6 +43,7 @@ This is a collection of drivers and utilities designed for the STM32 microcontro
 - EtherCAT slave : There is an [example](https://github.com/kubabuda/ecat_servo/tree/main/examples/SOES_LAN9252) using LAN9252 hardware
 - Modbus : There is [freertos required implementation](https://github.com/alejoseb/Modbus-STM32-HAL-FreeRTOS) which supports RTU/TCP and, [freemodbus port implementation](https://github.com/eziya/STM32_HAL_FREEMODBUS_RTU) that freertos is not mandatory. [PyModbus](https://github.com/pymodbus-dev/pymodbus) would be great option to test modbus hardware.
 - [min](https://github.com/min-protocol/min) : Serial communication protocol across microcontrollers which bundle python listener.
+- [SPI SD card and FatFs](https://github.com/akasa828/STM32_HAL-SPI_SD-FatFs) : Portable STM32 HAL SPI SD card driver with a FatFs disk I/O adapter and STM32F103 example.
 
 ## Contributions
 
